@@ -1,0 +1,73 @@
+
+{
+  "project": "Global Retail Solutions",
+  "version": "1.0",
+  "environment": "DEV",
+  "company": "Global Retail Solutions Pvt Ltd",
+  "currency": "INR",
+  "region": "India",
+  "retail_data": {
+    "products": [
+      {
+        "product_id": "PRD001",
+        "name": "Samsung Galaxy S25",
+        "category": "Electronics",
+        "price": 79999,
+        "stock": 45
+      },
+      {
+        "product_id": "PRD002",
+        "name": "Apple MacBook Air",
+        "category": "Computers",
+        "price": 114999,
+        "stock": 20
+      },
+      {
+        "product_id": "PRD003",
+        "name": "Sony Headphones",
+        "category": "Accessories",
+        "price": 12999,
+        "stock": 65
+      }
+    ],
+    "customers": [
+      {
+        "customer_id": "CUS001",
+        "name": "Rahul Sharma",
+        "city": "Hyderabad",
+        "membership": "Premium"
+      },
+      {
+        "customer_id": "CUS002",
+        "name": "Priya Reddy",
+        "city": "Bangalore",
+        "membership": "Gold"
+      }
+    ],
+    "orders": [
+      {
+        "order_id": "ORD1001",
+        "customer_id": "CUS001",
+        "product_id": "PRD001",
+        "quantity": 1,
+        "total_amount": 79999,
+        "status": "Delivered"
+      },
+      {
+        "order_id": "ORD1002",
+        "customer_id": "CUS002",
+        "product_id": "PRD003",
+        "quantity": 2,
+        "total_amount": 25998,
+        "status": "Processing"
+      }
+    ],
+    "sales_summary": {
+      "total_products": 3,
+      "total_customers": 2,
+      "total_orders": 2,
+      "total_revenue": 105997,
+      "pending_orders": 1
+    }
+  }
+}
