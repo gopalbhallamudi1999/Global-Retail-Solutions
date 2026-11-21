@@ -1,7 +1,7 @@
 
 {
   "project": "Global Retail Solutions",
-  "version": "4.0",
+  "version": "5.0",
   "environment": "DEV",
   "company": "Global Retail Solutions Pvt Ltd",
   "currency": "INR",
